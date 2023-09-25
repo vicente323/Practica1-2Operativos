@@ -1,8 +1,12 @@
 #include <math.h>
 #include <pthread.h>
+#include <stdlib.h>
 #include <stdio.h>
-#include <sys/time.h>
+#include <unistd.h>
+#include <sys/wait.h>
 #include <sys/shm.h>
+#include <sys/time.h>
+
 
 /*
 

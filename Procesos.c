@@ -17,7 +17,7 @@ sistema shmget() y conectar con la llamada al sistema shmat()
 */
 
 #define N_PROCESOS 4
-#define IT 10
+#define IT 10000
 
 long double pi = 0.0L;
 float n;

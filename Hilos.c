@@ -18,6 +18,9 @@ void *calcularPi(void *args);
 
 int main(int argc, char *argv[]) {
 
+  if (argc < 2)
+    exit(1);
+
   int iteraciones = atoi(argv[1]);
 
   long long start_ts;

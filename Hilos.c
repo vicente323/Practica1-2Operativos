@@ -2,13 +2,8 @@
 #include <pthread.h>
 #include <stdio.h>
 #include <sys/time.h>
-/*
 
-Es recomendable usar segmentos de
-memoria compartida, la cual la puedes solicitar al sistema con la llamada al
-sistema shmget() y conectar con la llamada al sistema shmat()
 
-*/
 
 #define HILOS 4
 #define IT 10000

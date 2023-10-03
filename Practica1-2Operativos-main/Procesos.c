@@ -1,12 +1,8 @@
 #include <math.h>
 #include <pthread.h>
-#include <stdlib.h>
 #include <stdio.h>
-#include <unistd.h>
-#include <sys/wait.h>
-#include <sys/shm.h>
 #include <sys/time.h>
-
+#include <sys/shm.h>
 
 /*
 
@@ -17,7 +13,7 @@ sistema shmget() y conectar con la llamada al sistema shmat()
 */
 
 #define N_PROCESOS 4
-#define IT 10000
+#define IT 10
 
 long double pi = 0.0L;
 float n;
